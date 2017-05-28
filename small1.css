@@ -1,0 +1,118 @@
+
+
+body
+{
+	background-color: black;
+}
+
+h1
+{
+	color: #ffff1a;
+	text-align: center;	
+	font-size: px;
+	font-family: 'Dancing Script', cursive;
+}
+img
+{
+	
+	width:100%;
+	text-align: center;
+}
+p
+{
+	color: white;
+	text-align: center;
+	font-size: 35px;
+	margin: 0 auto ;
+	font-family: 'Cookie', cursive;
+}
+
+u
+{
+	color: #ffdb4d;
+	font-family: 'Cookie' cursive;
+}
+
+
+div.gallery 
+{
+    
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+div.gallery:hover 
+{
+    border: 1px solid #777;
+}
+
+div.gallery img 
+{
+    width: 100%;
+    height: auto;
+}
+
+div.desc 
+{
+    padding: 0 auto;		
+    text-align: center;
+    color: white;
+}
+
+button {
+    background-color: black; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#y
+{
+	text-align: center;
+	color: black;
+	background-color:#ffff1a;
+}
+
+#resnav
+{
+	display: block;
+	background-color:#ffff1a; 
+	position: fixed;
+	width: 50%;
+	height: 100%;
+	overflow:auto;
+	text-align: center;
+	float: left;
+}
+
+
+#panelintro
+{
+	background-color: black;
+}
+
+#paneltdo,#panelcandh
+		{
+			display: none;			
+			width: 100%;		
+			background-color: black;		
+		}				
+#flipintro,#fliptdo,#flipcandh
+		{
+			float: left;
+			display: block;
+			font-size: 35px;
+			padding:  50px 0px 0px 20px;
+			color:black;
+			font-family: 'Cookie', cursive; 
+		}
+#mflipintro:hover,#mfliptdo:hover,#mflipcandh:hover
+		{
+			color: blue;
+			cursor: pointer;
+		}
