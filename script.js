@@ -95,7 +95,6 @@ $(document).ready(function(){
 });
 
 
-
 //sidenav bar button
 function sdnav_open() {
     document.getElementById("resnav").style.display = "block";
