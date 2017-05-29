@@ -28,6 +28,10 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+        $("#flipintro").css("color", "red"); 
+    });
+
+$(document).ready(function(){
     $("#flipintro").click(function(){
         $("#flipintro").css("color", "red"); 
     });
