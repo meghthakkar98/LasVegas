@@ -35,26 +35,22 @@ u
 
 div.gallery 
 {
-  
-    border: 1px solid #ccc;
+  	
     width: 50%;
 }
 
-div.gallery:hover 
-{
-    border: 1px solid #777;
-}
 
 div.gallery img 
 {
 	text-align: center;
     width: 100%;
     height: auto;
+    padding-left: 50%;
 }
 
 div.desc 
 {
-    padding: 0 auto;		
+    padding-left: 80%;			
     text-align: center;
     color: white;
 }
