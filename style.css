@@ -75,7 +75,7 @@ button
 	font-size: 35px;
 	top: 0;
 	left: 0;
-	padding-left:12%;
+	padding-left:14%;
 	text-align: center;
 	color: black;
 	background-color:#ffff1a;
@@ -88,7 +88,7 @@ button
 	display: block;
 	background-color:#ffff1a; 
 	position: fixed;
-	width: 15%;
+	width: 17%;
 	height: 100%;
 	overflow:auto;
 	text-align: center;
@@ -111,7 +111,7 @@ button
 		{
 			float: left;
 			display: block;
-			font-size: 25px;
+			font-size: 30px;
 			padding:  50px 0px 0px 20px;
 			color:black;
 			font-family: 'Cookie', cursive; 
