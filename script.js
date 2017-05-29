@@ -26,9 +26,23 @@ $(document).ready(function(){
         $("#resnav").hide();
     });
 });
+
 $(document).ready(function(){
     $("#flipintro").click(function(){
         $("#flipintro").css("color", "red"); 
+    });
+});
+
+
+$(document).ready(function(){
+    $("#flipintro").click(function(){
+        $("#fliptdo").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipintro").click(function(){
+        $("#flipcandh").css("color", "black"); 
     });
 });
 
@@ -63,6 +77,18 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $("#fliptdo").click(function(){
+        $("#flipintro").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#fliptdo").click(function(){
+        $("#flipcandh").css("color", "black"); 
+    });
+});
+
 //casino and hotel
 $(document).ready(function(){
     $("#flipcandh").click(function(){
@@ -93,6 +119,21 @@ $(document).ready(function(){
         $("#flipcandh").css("color", "red"); 
     });
 });
+
+$(document).ready(function(){
+    $("#flipcandh").click(function(){
+        $("#flipintro").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipcandh").click(function(){
+        $("#fliptdo").css("color", "black"); 
+    });
+});
+
+
+
 
 
 //sidenav bar button
