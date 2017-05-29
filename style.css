@@ -75,7 +75,9 @@ button {
 }
 
 #resnav
-{
+{	
+	top:0;
+	left:0;
 	display: block;
 	background-color:#ffff1a; 
 	position: fixed;
