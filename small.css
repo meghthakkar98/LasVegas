@@ -9,7 +9,7 @@ h1
 {
 	color: #ffff1a;
 	text-align: center;	
-	font-size: 30px;
+	font-size: 35px;
 	font-family: 'Dancing Script', cursive;
 }
 img
@@ -59,41 +59,45 @@ div.desc
     color: white;
 }
 
-button {
-    background-color:#ffff1a ; 
+button 
+{
+	top: 0;
+	right: 0; 
     border: none;
-    color: black;
+    color: #ffcc00;
+    background-color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 35px;
     margin: 3px 3px;
-    cursor: pointer;
-}
-
-#w
-{
-color:white;
+  	position: fixed;	
 }
 
 #y
 {	
-	padding-right:40%;
+	top: 0;
+	left: 0;
+	padding-left:50%;
 	text-align: center;
 	color: black;
-	background-color:#ffff1a;
+	background-color:#ffcc00;
 }
+#w
+{
+	color: white;
+}
+
 
 #resnav
 {
-	display: block;
-	background-color:#ffff1a; 
+	top: 0;
+	left: 0;
+	background-color:#ffcc00; 
 	position: fixed;
-	width: 50%;
+	width: 60%;
 	height: 100%;
-	overflow:auto;
 	text-align: center;
-	float: left;
 }
 
 
@@ -110,10 +114,11 @@ color:white;
 		}				
 #flipintro,#fliptdo,#flipcandh
 		{
+
 			float: left;
 			display: block;
-			font-size: 35px;
-			padding:  50px 0px 0px 20px;
+			font-size: 30px;
+			padding:  50px 20px 0px 20px;
 			color:black;
 			font-family: 'Cookie', cursive; 
 		}
