@@ -28,15 +28,21 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $("#flipintro").click(function(){
+        $("#paneltrip").hide();
+    });
+});
+
+$(document).ready(function(){
         $("#flipintro").css("color", "red"); 
     });
+
 
 $(document).ready(function(){
     $("#flipintro").click(function(){
         $("#flipintro").css("color", "red"); 
     });
 });
-
 
 $(document).ready(function(){
     $("#flipintro").click(function(){
@@ -47,6 +53,12 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#flipintro").click(function(){
         $("#flipcandh").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipintro").click(function(){
+        $("#fliptrip").css("color", "black"); 
     });
 });
 
@@ -66,6 +78,12 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#fliptdo").click(function(){
         $("#panelcandh").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#fliptdo").click(function(){
+        $("#paneltrip").hide();
     });
 });
 
@@ -93,6 +111,12 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $("#fliptdo").click(function(){
+        $("#fliptrip").css("color", "black"); 
+    });
+});
+
 //casino and hotel
 $(document).ready(function(){
     $("#flipcandh").click(function(){
@@ -114,7 +138,19 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#flipcandh").click(function(){
+        $("#paneltrip").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipcandh").click(function(){
         $("#resnav").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipcandh").click(function(){
+        $("#paneltrip").hide();
     });
 });
 
@@ -136,8 +172,67 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $("#flipcandh").click(function(){
+        $("#fliptrip").css("color", "black"); 
+    });
+});
 
 
+//trip planning
+$(document).ready(function(){
+    $("#fliptrip").click(function(){
+        $("#paneltrip").slideDown("slow"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#fliptrip").click(function(){
+        $("#paneltdo").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#fliptrip").click(function(){
+        $("#panelintro").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#fliptrip").click(function(){
+        $("#panelcandh").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#fliptrip").click(function(){
+        $("#resnav").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#fliptrip").click(function(){
+        $("#fliptrip").css("color", "red"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#fliptrip").click(function(){
+        $("#flipintro").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#fliptrip").click(function(){
+        $("#fliptdo").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#fliptrip").click(function(){
+        $("#flipcandh").css("color", "black"); 
+    });
+});
 
 
 //sidenav bar button
