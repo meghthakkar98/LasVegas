@@ -101,13 +101,13 @@ button
 	background-color: black;
 }
 
-#paneltdo,#panelcandh
+#paneltdo,#panelcandh,#paneltrip
 		{
 			display: none;			
 			width: 100%;		
 			background-color: black;		
 		}				
-#flipintro,#fliptdo,#flipcandh
+#flipintro,#fliptdo,#flipcandh,#fliptrip
 		{
 			float: left;
 			display: block;
@@ -116,7 +116,7 @@ button
 			color:black;
 			font-family: 'Cookie', cursive; 
 		}
-#flipintro:hover,#fliptdo:hover,#flipcandh:hover
+#flipintro:hover,#fliptdo:hover,#flipcandh:hover,#fliptrip:hover
 		{
 			color: blue;
 			cursor: pointer;
