@@ -63,19 +63,20 @@ div.desc
 button 
 {
 	top: 0;
-	right: 0; 
+	left: 0; 
     border: none;
     color: white;
     background-color: #ffcc00;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 45px;
+    font-size: 50px;
   	position: fixed;	
 }
 
 #y
 {	
+	font-size:30px;
 	top: 0;
 	left: 0;
 	padding-left:50%;
