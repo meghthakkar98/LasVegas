@@ -63,14 +63,16 @@ div.desc
 button 
 {
 	top: 0;
-	left: 0; 
-    border: none;
-    color: white;
-    background-color: #ffcc00;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 50px;
+	right: 0;
+	margin-right: 3%; 
+	margin-top: 3%;
+	border: none;
+    	color: white;
+    	background-color: #ffcc00;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 50px;
   	position: fixed;	
 }
 
