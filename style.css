@@ -1,10 +1,14 @@
-
-body
+*
 {
-	background-color: black;
+	margin: 0;
 }
 
-h1
+html,body
+{
+	height: 100%;
+}
+
+h2
 {
 	color: #ffff1a;
 	text-align: center;	
@@ -33,67 +37,32 @@ u
 }
 
 
-div.gallery 
-{
-  	
-    width: 50%;
-}
-
-
-div.gallery img 
-{
-	text-align: center;
-    width: 100%;
-    height: auto;
-    padding-left: 50%;
-}
-
-div.desc 
-{
-    padding-left: 80%;			
-    text-align: center;
-    color: white;
-}
-
-button 
-{
-	top: 0;
-	right: 0;
-	position: fixed;
-    background-color: black; 
-    border: none;
-    color: #ffcc00;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 63px;
-    cursor: pointer;
-}
-
-#y
-{
-	font-size: 35px;
-	top: 0;
-	left: 0;
-	padding-left:14%;
-	text-align: center;
-	color: black;
-	background-color:#ffff1a;
-}
-
 #resnav
 {
-	top: 0;
+	background-color: #cccccc;
+	position:fixed;
+	font-family: 'Sintony', sans-serif;
+	text-align:center;
+	top:0;
 	left: 0;
+	width:100%;
 	display: block;
-	background-color:#ffff1a; 
-	position: fixed;
-	width: 17%;
-	height: 100%;
-	overflow:auto;
-	text-align: center;
-	float: left;
-}
+}	
+
+#flipintro,#fliptdo,#flipcandh,#fliptrip
+		{
+			float: left;
+			font-size: 30px;
+			color:black	;
+			margin-top: 0.5%;
+			font-family: 'Cookie', cursive; 
+			padding-left: 11%;	
+		}
+#flipintro:hover,#fliptdo:hover,#flipcandh:hover,#fliptrip:hover
+		{
+			color: #33ccff;
+			cursor: pointer;
+		}
 
 
 #panelintro
@@ -105,19 +74,50 @@ button
 		{
 			display: none;			
 			width: 100%;		
-			background-color: black;		
+			
 		}				
-#flipintro,#fliptdo,#flipcandh,#fliptrip
-		{
-			float: left;
-			display: block;
-			font-size: 30px;
-			padding:  50px 0px 0px 20px;
-			color:black;
-			font-family: 'Cookie', cursive; 
-		}
-#flipintro:hover,#fliptdo:hover,#flipcandh:hover,#fliptrip:hover
-		{
-			color: blue;
-			cursor: pointer;
-		}
+
+.sect
+{
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+
+.subSect
+{
+	height: 50%;
+	background-color: black;
+}
+
+.sectOne
+{
+	background-image: url("http://cdn.luxuo.com/wp-content/uploads/2014/04/Las-Vegas-High-Roller.jpg");
+}
+
+.sectTwo
+{
+	background-image: url("https://github.com/meghthakkar98/LasVegas/blob/gh-pages/image3.jpg?raw=true");	
+}
+
+.sectThree
+{
+	background-image: url("https://www.holidayguru.ie/wp-content/uploads/2016/06/Las-Vegas-Strip-at-night-high-vantage-iStock_000082066557_Large-2.jpg");
+}
+
+.sectFour
+{
+	background-image: url("https://github.com/meghthakkar98/LasVegas/blob/gh-pages/image5.jpg?raw=true");
+}
+
+.sectFive
+{
+	background-image: url("https://d12dkjq56sjcos.cloudfront.net/pub/media/catalog/category/Las-Vegas-Big-Bus-Tour-Welcome-Sign-Big-Bus-Tours_12-01-17.jpg");
+}
+
+.sectSix
+{
+	background-image: url("https://github.com/meghthakkar98/LasVegas/blob/gh-pages/image7.jpg?raw=true");
+}
+
