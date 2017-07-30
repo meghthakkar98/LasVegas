@@ -6,76 +6,8 @@
 html,body
 {
 	height: 100%;
-}
-
-h2
-{
-	color: #ffff1a;
-	text-align: center;	
-	font-size: 60px;
-	font-family: 'Dancing Script', cursive;
-}
-img
-{
-	
-	width: 50%;
-	text-align: center;
-}
-p
-{
-	color: white;
-	text-align: center;
-	font-size: 35px;
-	margin: 0px 200px 0px 200px ;
-	font-family: 'Cookie', cursive;
-}
-
-u
-{
-	color: #ffdb4d;
-	font-family: 'Cookie' cursive;
-}
-
-
-#resnav
-{
-	background-color: #cccccc;
-	position:fixed;
-	font-family: 'Sintony', sans-serif;
-	text-align:center;
-	top:0;
-	left: 0;
-	width:100%;
-	display: block;
-}	
-
-#flipintro,#fliptdo,#flipcandh,#fliptrip
-		{
-			float: left;
-			font-size: 30px;
-			color:black	;
-			margin-top: 0.5%;
-			font-family: 'Cookie', cursive; 
-			padding-left: 11%;	
-		}
-#flipintro:hover,#fliptdo:hover,#flipcandh:hover,#fliptrip:hover
-		{
-			color: #33ccff;
-			cursor: pointer;
-		}
-
-
-#panelintro
-{
 	background-color: black;
 }
-
-#paneltdo,#panelcandh,#paneltrip
-		{
-			display: none;			
-			width: 100%;		
-			
-		}				
 
 .sect
 {
@@ -119,5 +51,48 @@ u
 .sectSix
 {
 	background-image: url("https://github.com/meghthakkar98/LasVegas/blob/gh-pages/image7.jpg?raw=true");
+}
+
+.sectSeven
+{
+	background-image: url("http://www.baltana.com/files/wallpapers-2/Las-Vegas-HD-Images-04171.jpeg");
+}
+
+.sectEight
+{
+	background-image: url("http://wallpapercave.com/wp/MvtBAPM.jpg");
+}
+
+*
+{
+	margin: 0;
+}
+
+html,body
+{
+	height: 100%;
+}
+
+h1
+{
+	color: #ffff1a;
+	text-align: center;	
+	font-size: 60px;
+	font-family: 'Sintony', sans-serif;
+}
+
+p
+{
+	color: white;
+	text-align: center;
+	font-size: 28px;
+	margin: 0px 200px 0px 200px ;
+	font-family: 'Cookie', cursive;
+}
+
+u
+{
+	color: #ffdb4d;
+	font-family: 'Cookie' cursive;
 }
 
