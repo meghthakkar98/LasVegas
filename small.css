@@ -1,29 +1,22 @@
-
-
 body
 {
 	background-color: black;
 }
 
-h1
-{
-	padding-top: 30px;
-	color: #ffff1a;
-	text-align: center;	
-	font-size: 35px;
-	font-family: 'Dancing Script', cursive;
-}
-img
+h2
 {
 	
-	width:100%;
-	text-align: center;
+	color: #ffff1a;
+	text-align: center;	
+	font-size: 30px;
+	font-family: 'Dancing Script', cursive;
 }
+
 p
 {
 	color: white;
 	text-align: center;
-	font-size: 29px;
+	font-size: 17px;
 	margin: 0 auto ;
 	font-family: 'Cookie', cursive;
 }
@@ -34,100 +27,70 @@ u
 	font-family: 'Cookie' cursive;
 }
 
-
-div.gallery 
+*
 {
-    
-    border: 1px solid #ccc;
-    width: 100%;
+	margin: 0;
 }
 
-div.gallery:hover 
+html,body
 {
-    border: 1px solid #777;
+	height: 80%;
+	background-color: black;
+
 }
 
-div.gallery img 
+.sect
 {
-    width: 100%;
-    height: auto;
-}
-
-div.desc 
-{
-    padding: 0 auto;		
-    text-align: center;
-    color: white;
-}
-
-button 
-{
-	top: 0;
-	right: 0;
-	margin-right: 3%; 
-	margin-top: 3%;
-	border: none;
-	border-radius: 20%;
-    	color: white;
-    	background-color: #ffcc00;
-    	text-align: center;
-    	text-decoration: none;
-    	display: inline-block;
-    	font-size: 50px;
-  	position: fixed;	
-}
-
-#y
-{	
-	font-size:30px;
-	top: 0;
-	left: 0;
-	padding-left:50%;
-	text-align: center;
-	color: black;
-	background-color:#ffcc00;
-}
-#w
-{
-	color: white;
-}
-
-
-#resnav
-{
-	top: 0;
-	left: 0;
-	background-color:#ffcc00; 
-	position: fixed;
-	width: 60%;
 	height: 100%;
-	text-align: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
 }
 
-
-#panelintro
+.subSect
 {
+	height: 40%;
 	background-color: black;
 }
 
-#paneltdo,#panelcandh,#paneltrip
-		{
-			display: none;			
-			width: 100%;		
-			background-color: black;		
-		}				
-#flipintro,#fliptdo,#flipcandh,#fliptrip
-		{
+.sectOne
+{
+	background-image: url("http://cdn.luxuo.com/wp-content/uploads/2014/04/Las-Vegas-High-Roller.jpg");
+}
 
-			float: left;
-			display: block;
-			font-size: 30px;
-			padding:  50px 20px 0px 20px;
-			color:black;
-			font-family: 'Cookie', cursive; 
-		}
-#flipintro:hover,#fliptdo:hover,#flipcandh:hover,#fliptrip:hover
-		{
-			color: blue;
-			cursor: pointer;
-		}
+.sectTwo
+{
+	background-image: url("https://github.com/meghthakkar98/LasVegas/blob/gh-pages/image3.jpg?raw=true");	
+}
+
+.sectThree
+{
+	background-image: url("https://www.holidayguru.ie/wp-content/uploads/2016/06/Las-Vegas-Strip-at-night-high-vantage-iStock_000082066557_Large-2.jpg");
+}
+
+.sectFour
+{
+	background-image: url("https://github.com/meghthakkar98/LasVegas/blob/gh-pages/image5.jpg?raw=true");
+}
+
+.sectFive
+{
+	background-image: url("https://d12dkjq56sjcos.cloudfront.net/pub/media/catalog/category/Las-Vegas-Big-Bus-Tour-Welcome-Sign-Big-Bus-Tours_12-01-17.jpg");
+}
+
+.sectSix
+{
+	background-image: url("https://github.com/meghthakkar98/LasVegas/blob/gh-pages/image7.jpg?raw=true");
+}
+
+.sectSeven
+{
+	background-image: url("http://www.baltana.com/files/wallpapers-2/Las-Vegas-HD-Images-04171.jpeg");
+}
+
+.sectEight
+{
+	background-image: url("http://wallpapercave.com/wp/MvtBAPM.jpg");
+}
+
+
