@@ -15,6 +15,7 @@ html,body
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
+	background-position: center;
 }
 
 .subSect
@@ -95,4 +96,5 @@ u
 	color: #ffdb4d;
 	font-family: 'Cookie' cursive;
 }
+
 
