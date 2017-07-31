@@ -9,14 +9,12 @@ html,body
 	background-color: black;
 }
 
- 
-    
 .sect
 {
-	-moz-background-size: auto;
-    -webkit-background-size: auto;
+
 	height: 100%;
 	background-size: cover;
+	background-position: fixed;
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
 }
