@@ -9,14 +9,16 @@ html,body
 	background-color: black;
 }
 
+ 
+    
 .sect
 {
-	 -moz-background-size: auto;
+	-moz-background-size: auto;
     -webkit-background-size: auto;
-    background-attachment: scroll;
-    background-position: top;
-    background-size: auto;
-    
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
 }
 
 .subSect
