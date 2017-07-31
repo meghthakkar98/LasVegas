@@ -41,7 +41,7 @@ html,body
 
 .sect
 {
-	height: 100%;
+	height: 500px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
