@@ -39,14 +39,6 @@ html,body
 
 }
 
-.sect
-{
-	height: 100%;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-attachment: fixed; 
-	background-position: center;
-}
 
 .subSect
 {
